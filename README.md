@@ -21,7 +21,7 @@ Esse é um teste para a vaga da uBots, para fazer o projeto rodar siga as instru
 
 - Execute o projeto usando:
 
-`server.js`
+`node server.js`
 
 A partir deste ponto o projeto já estará rodando e funcionando, nele há 3 rotas que podem ser testadas usando o postman ou qualquer outra ferramenta de requisições de API.
 
