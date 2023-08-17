@@ -1,0 +1,51 @@
+{
+	"info": {
+		"_postman_id": "c6c21e68-d0a0-48ba-b071-8766c36d0610",
+		"name": "Invext",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Solicitar Atendimento",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"assunto\": \"Contratação de empréstimo\",\n  \"mensagem\": \"Solicito empréstimo para aquisição de lorem ipsum\"\n}\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "localhost:3000/solicitar-atendimento"
+			},
+			"response": []
+		},
+		{
+			"name": "Processar Atendimentos",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Listar por Time",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Listar Todas as Solicitações",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
